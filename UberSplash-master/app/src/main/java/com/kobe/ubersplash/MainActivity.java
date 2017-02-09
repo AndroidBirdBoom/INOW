@@ -23,8 +23,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import principal.SecondActivity;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public static final String VIDEO_NAME = "welcome_video.mp4";
     private VideoView mVideoView;
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }*/
         setContentView(R.layout.activity_main);
         //隐藏ActionBar标签
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         button = (Button) this.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {

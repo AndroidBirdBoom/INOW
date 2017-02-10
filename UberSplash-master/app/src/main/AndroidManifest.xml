@@ -20,6 +20,9 @@
         </activity>
 
         <activity android:name=".activity.LeftMenu" />
+        <activity
+            android:name=".activity.OrganizationInfoMore"
+            android:theme="@style/OrganizationActTheme" />
     </application>
 
 

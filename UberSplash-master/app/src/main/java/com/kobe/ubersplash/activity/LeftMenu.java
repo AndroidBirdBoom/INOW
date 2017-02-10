@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.kobe.ubersplash.R;
 import com.kobe.ubersplash.fragment.FragmentApdater;
 import com.kobe.ubersplash.fragment.FragmentEasy;
+import com.kobe.ubersplash.fragment.FragmentImpro;
 import com.kobe.ubersplash.fragment.FragmentRecycler;
 
 import java.util.ArrayList;
@@ -50,7 +51,7 @@ public class LeftMenu extends AppCompatActivity {
     public void initData() {
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        //actionBar.setDisplayHomeAsUpEnabled(true);
         List<String> titleList = new ArrayList<>();
         titleList.add("简单");
         titleList.add("瀑布流");
@@ -62,7 +63,7 @@ public class LeftMenu extends AppCompatActivity {
         List<Fragment> fragments = new ArrayList<>();
         fragments.add(new FragmentEasy());
         fragments.add(new FragmentRecycler());
-        fragments.add(new FragmentEasy());
+        fragments.add(new FragmentImpro());
 
         fragmentApdater = new FragmentApdater(getSupportFragmentManager(), titleList, fragments);
         viewPager.setAdapter(fragmentApdater);

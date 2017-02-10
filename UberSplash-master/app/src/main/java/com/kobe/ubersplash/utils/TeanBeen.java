@@ -2,6 +2,7 @@ package com.kobe.ubersplash.utils;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -21,11 +22,29 @@ public class TeanBeen {
         this.girls = girls;
     }
 
-    public static class PeopleBeen {
+    public static class PeopleBeen implements Serializable {
         private String img;
         private String imgsrc;
         private String pixel;
         private int upTimes;
+        private String title;
+        private String digest;
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public String getDigest() {
+            return digest;
+        }
+
+        public void setDigest(String digest) {
+            this.digest = digest;
+        }
 
         public String getImg() {
             return img;
@@ -57,6 +76,18 @@ public class TeanBeen {
 
         public void setUpTimes(int upTimes) {
             this.upTimes = upTimes;
+        }
+
+        @Override
+        public String toString() {
+            return "PeopleBeen{" +
+                    "img='" + img + '\'' +
+                    ", imgsrc='" + imgsrc + '\'' +
+                    ", pixel='" + pixel + '\'' +
+                    ", upTimes=" + upTimes +
+                    ", title='" + title + '\'' +
+                    ", digest='" + digest + '\'' +
+                    '}';
         }
     }
 

@@ -2,229 +2,229 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_91f0e4342731a70fa272debc094b74c592f73434\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_0270a96bb71563f79d68d66df6807756e8a69b0e\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_0270a96bb71563f79d68d66df6807756e8a69b0e.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_34429336c350f3e3e86c19d29b9a07cdbfb28a63\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_34429336c350f3e3e86c19d29b9a07cdbfb28a63.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_d7e92880498d7fce49f5e5670b8be6491fbbac87\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_d7e92880498d7fce49f5e5670b8be6491fbbac87.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_91f0e4342731a70fa272debc094b74c592f73434.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="79eece3e8ec3a08e65961ba475543fa6848951c6">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_05d967d89db37ddd391bcb8cd1281774181c678c\classes.dex" />
+        sha1="eef34282f5fcdf715430e6243e25155f4b058dc5">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_05d967d89db37ddd391bcb8cd1281774181c678c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c30bfd88503bf04f4f4aa384f9a733b83838b261\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1c765aa58d19a775cc6fb1eb1e5ed411a27822a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.1_d9eed95b17c9f2c1ad2092b5a396264ea1c7f2d1\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.0.1_d9eed95b17c9f2c1ad2092b5a396264ea1c7f2d1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.6.0_8f94c38b632c8cfdccc541133dc6cf4a8be1bbf8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d5efb4964da27f6f77e9eb5a7f9fde8628a306dd\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_d5efb4964da27f6f77e9eb5a7f9fde8628a306dd.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_1c765aa58d19a775cc6fb1eb1e5ed411a27822a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_05313d48f76805a5d3061e87a04ab24ae26f6392\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_05313d48f76805a5d3061e87a04ab24ae26f6392.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_10eb42a385b8b9de785d731ce3c6fab702db5cb8\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_10eb42a385b8b9de785d731ce3c6fab702db5cb8.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_d31c0548f59f144d73e31eb0fa93a78afb2c3772\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_d31c0548f59f144d73e31eb0fa93a78afb2c3772.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4d8807663172fb362352aed3a9e060c42b754216\classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c30bfd88503bf04f4f4aa384f9a733b83838b261.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_e2a5b391f3e5917940b3ade4e3b1fb8fbc66ef2c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9b42c50442afd708dead4b97bb92fb676ec80789\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_d5baecc938c32ddf65ca3c412f89991444b62aa0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_8181bb8f08a1c395f3304594d758face91cd8181\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_ac22af6a1624b73a24139c36d9c971f5976139ff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_6281212a3fb2863afcef52eafceccd01f0414a18\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_05f78ea59ac36db32828309e03415b480643b8e4\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_05f78ea59ac36db32828309e03415b480643b8e4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="false"
+        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="67507dfb538f0349fabd240ec5b39774c27bffe4">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e099cc62415abe575cea6e523d6c6b7aa8365e96\classes.dex" />
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\okio-1.11.0_d5baecc938c32ddf65ca3c412f89991444b62aa0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_b6dc0d14baf7471ee9b65fc5d27e5a72c1c85ec0\classes.dex" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_4d8807663172fb362352aed3a9e060c42b754216.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_8181bb8f08a1c395f3304594d758face91cd8181.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\AS\SDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_56d69830a268592ca7c29b9ac3d0698fccb8b747\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_56d69830a268592ca7c29b9ac3d0698fccb8b747.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_ac22af6a1624b73a24139c36d9c971f5976139ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\gson-2.7_6281212a3fb2863afcef52eafceccd01f0414a18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_e2a5b391f3e5917940b3ade4e3b1fb8fbc66ef2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_8f94c38b632c8cfdccc541133dc6cf4a8be1bbf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9b42c50442afd708dead4b97bb92fb676ec80789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="912dfa51ba1e13632c76ec5a626f7b879f301c47">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\instant-run_e099cc62415abe575cea6e523d6c6b7aa8365e96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_b6dc0d14baf7471ee9b65fc5d27e5a72c1c85ec0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5a49cc5c18da0f2f3a2311652f70c37a444e4a6f\classes.dex" />
+        <dex dex="C:\Users\Jack\Desktop\programes\UberSplash-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5a49cc5c18da0f2f3a2311652f70c37a444e4a6f.jar" />
     </item>
 
 </items>

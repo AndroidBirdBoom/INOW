@@ -21,18 +21,18 @@ import java.util.List;
 
 public class FragmentRecyclerAdapter extends RecyclerView.Adapter<FragmentRecyclerAdapter.ViewHolder> {
     private Context context;
-    private List<TeanBeen.PeopleBeen> girlList;
-    private List<Integer> heights;
+    //private List<TeanBeen.PeopleBeen> girlList;
+    private List<Integer> heights, images;
 
-    public FragmentRecyclerAdapter(Context context, List<TeanBeen.PeopleBeen> girlList) {
+    public FragmentRecyclerAdapter(Context context, List<Integer> images) {
         this.context = context;
-        this.girlList = girlList;
+        this.images = images;
         heights = new ArrayList<>();
         setHeights(heights);
     }
 
     public void setHeights(List<Integer> heights) {
-        for (int i = 0; i < girlList.size(); i++) {
+        for (int i = 0; i < images.size(); i++) {
             heights.add((int) (300 + Math.random() * 400));
         }
     }
@@ -60,9 +60,9 @@ public class FragmentRecyclerAdapter extends RecyclerView.Adapter<FragmentRecycl
         params.height = heights.get(position);
         holder.itemView.setLayoutParams(params);
         Picasso.with(context)
-                .load(girlList.get(position).getImgsrc())
-                .placeholder(R.mipmap.ic_launcher)
-                .error(R.mipmap.ic_launcher)
+                .load(images.get(position))
+                .placeholder(R.mipmap.loading2)
+                .error(R.mipmap.lose)
                 .into(holder.imageView);
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,7 +74,7 @@ public class FragmentRecyclerAdapter extends RecyclerView.Adapter<FragmentRecycl
 
     @Override
     public int getItemCount() {
-        return girlList.size();
+        return images.size();
     }
 
 }

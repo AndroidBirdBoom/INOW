@@ -17,8 +17,8 @@ import android.view.View;
 /**
  * Created by HP on 2017/2/10.
  */
-
-public class DividerGridItemDecoration extends RecyclerView.ItemDecoration{
+//RecyclerView 的Item的间隔分割线
+public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
     private static final int[] ATTRS = new int[]{android.R.attr.listDivider};
     private Drawable mDivider;
     private int lineWidth = 1;

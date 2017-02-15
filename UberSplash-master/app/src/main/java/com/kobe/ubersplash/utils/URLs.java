@@ -12,4 +12,6 @@ public class URLs {
             "&sign=bOVsnQQ6gJamli6%2BfINh6fC%2Fi9ydsM5XXPKOGRto5G948ErR02zJ6%2FKXOnxX046I" +
             "&encryption=1&canal=meizu_store2014_news" +
             "&mac=sSduRYcChdp%2BBL1a9Xa%2F9TC0ruPUyXM4Jwce4E9oM30%3D";
+    public static String sdutURL = "http://202.5.18.249/";
+    public static String sdutURL2 = "http://www.igoup.cn/test/getJson";
 }

@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.kobe.ubersplash.R;
+import com.kobe.ubersplash.utils.Article;
+import com.kobe.ubersplash.utils.OrganizationArticles;
 import com.kobe.ubersplash.utils.TeanBeen;
 import com.squareup.picasso.Picasso;
 
@@ -46,7 +48,7 @@ public class OrganizationInfoMore extends AppCompatActivity {
     }
 
     public void initData() {
-        TeanBeen.PeopleBeen been = (TeanBeen.PeopleBeen) getIntent().getSerializableExtra("PeopleBeen");
+        /*TeanBeen.PeopleBeen been = (TeanBeen.PeopleBeen) getIntent().getSerializableExtra("PeopleBeen");
         organizationName.setText(been.toString());
         Picasso.with(getApplicationContext())
                 .load(been.getImgsrc())
@@ -54,6 +56,17 @@ public class OrganizationInfoMore extends AppCompatActivity {
                 .error(R.mipmap.ic_launcher)
                 .into(organizationImageView);
 
+        */
+        OrganizationArticles.OrArticle article = (OrganizationArticles.OrArticle) getIntent().getSerializableExtra("Article");
+        String str = article.getDigest().replaceAll("/n", "  ");
+        organizationName.setText(str);
+        if (!article.getImg().equals("")) {
+            Picasso.with(getApplicationContext())
+                    .load(article.getImg())
+                    .placeholder(R.mipmap.ic_launcher)
+                    .error(R.mipmap.ic_launcher)
+                    .into(organizationImageView);
+        }
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -61,7 +74,8 @@ public class OrganizationInfoMore extends AppCompatActivity {
         }
         titleCollapsing.setExpandedTitleColor(Color.WHITE);
         titleCollapsing.setCollapsedTitleTextColor(Color.WHITE);
-        titleCollapsing.setTitle(been.getTitle());
+        titleCollapsing.setTitle(article.getTitle());
+        //titleCollapsing.setTitle(been.getTitle());
        /* Picasso.with(getApplicationContext())
                 .load(been.getImgsrc())
                 .placeholder(R.mipmap.ic_launcher)

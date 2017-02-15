@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import com.kobe.ubersplash.R;
 import com.kobe.ubersplash.activity.OrganizationInfoMore;
+import com.kobe.ubersplash.utils.Article;
+import com.kobe.ubersplash.utils.OrganizationArticles;
 import com.kobe.ubersplash.utils.TeanBeen;
 import com.squareup.picasso.Picasso;
 
@@ -25,11 +27,12 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class OrganizationRecyclerAdapter extends RecyclerView.Adapter<OrganizationRecyclerAdapter.ViewHolder> {
 
-    private List<TeanBeen.PeopleBeen> girlsList;
+    private List<OrganizationArticles.OrArticle> orArticles;
     private Context mContext;
 
-    public OrganizationRecyclerAdapter(Context mContext, List<TeanBeen.PeopleBeen> girlsList) {
-        this.girlsList = girlsList;
+
+    public OrganizationRecyclerAdapter(Context mContext, List<OrganizationArticles.OrArticle> articleList) {
+        this.orArticles = articleList;
         this.mContext = mContext;
     }
 
@@ -41,26 +44,29 @@ public class OrganizationRecyclerAdapter extends RecyclerView.Adapter<Organizati
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        final TeanBeen.PeopleBeen been = girlsList.get(position);
-        Picasso.with(mContext)
-                .load(been.getImgsrc())
-                .error(R.mipmap.ic_launcher)
-                .placeholder(R.mipmap.ic_launcher)
-                .into(holder.organizationCircleImage);
-        holder.organizationFromTitleText.setText(been.getPixel());
-        holder.organizationTitleText.setText(been.getTitle());
-        holder.organizationContentText.setText(been.toString());
+
+        final OrganizationArticles.OrArticle article = orArticles.get(position);
+        if (!article.getImg().equals("")) {
+            Picasso.with(mContext)
+                    .load(article.getImg())
+                    .placeholder(R.mipmap.loading2)
+                    .error(R.mipmap.lose)
+                    .into(holder.organizationCircleImage);
+        }
+        holder.organizationFromTitleText.setText("学生会");
+        holder.organizationTitleText.setText(article.getTitle());
+        holder.organizationContentText.setText(article.getDigest());
         holder.organizationLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, been.getPixel(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "学生会", Toast.LENGTH_SHORT).show();
             }
         });
         holder.organizationContentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, OrganizationInfoMore.class);
-                intent.putExtra("PeopleBeen", been);
+                intent.putExtra("Article", article);
                 mContext.startActivity(intent);
             }
         });
@@ -68,7 +74,8 @@ public class OrganizationRecyclerAdapter extends RecyclerView.Adapter<Organizati
 
     @Override
     public int getItemCount() {
-        return girlsList.size();
+        //return girlsList.size();
+        return orArticles.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

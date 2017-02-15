@@ -3,6 +3,8 @@ package com.kobe.ubersplash.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
@@ -12,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.kobe.ubersplash.R;
+import com.kobe.ubersplash.activity.LeftMenu;
 import com.kobe.ubersplash.adapter.DragAdapter;
 import com.kobe.ubersplash.common.DividerGridItemDecoration;
 import com.kobe.ubersplash.helper.MyItemTouchCallback;
@@ -42,15 +45,23 @@ public class FragmentImpro extends Fragment implements MyItemTouchCallback.OnDra
         if (items != null)
             results.addAll(items);
         else {
-            for (int i = 0; i < 3; i++) {
-                results.add(new Item(i * 8 + 0, "收款", R.mipmap.takeout_ic_category_brand));
-                results.add(new Item(i * 8 + 1, "转账", R.mipmap.takeout_ic_category_flower));
-                results.add(new Item(i * 8 + 2, "余额宝", R.mipmap.takeout_ic_category_fruit));
-                results.add(new Item(i * 8 + 3, "手机充值", R.mipmap.takeout_ic_category_medicine));
-                results.add(new Item(i * 8 + 4, "医疗", R.mipmap.takeout_ic_category_motorcycle));
-                results.add(new Item(i * 8 + 5, "彩票", R.mipmap.takeout_ic_category_public));
-                results.add(new Item(i * 8 + 6, "电影", R.mipmap.takeout_ic_category_store));
-                results.add(new Item(i * 8 + 7, "游戏", R.mipmap.takeout_ic_category_sweet));
+            for (int i = 0; i < 1; i++) {
+                results.add(new Item(i * 16 + 0, "学校动态", R.mipmap.university));
+                results.add(new Item(i * 16 + 1, "学生会", R.mipmap.students));
+                results.add(new Item(i * 16 + 2, "社团", R.mipmap.queue));
+                results.add(new Item(i * 16 + 3, "学术报告", R.mipmap.schooldirector));
+                results.add(new Item(i * 16 + 4, "最新新闻", R.mipmap.news));
+                results.add(new Item(i * 16 + 5, "比赛活动", R.mipmap.leaderboard));
+                results.add(new Item(i * 16 + 6, "运动会", R.mipmap.exercise));
+                results.add(new Item(i * 16 + 7, "科技", R.mipmap.system));
+                results.add(new Item(i * 16 + 8, "娱乐", R.mipmap.musical));
+                results.add(new Item(i * 16 + 9, "公交", R.mipmap.bus));
+                results.add(new Item(i * 16 + 10, "饮食", R.mipmap.porridge));
+                results.add(new Item(i * 16 + 11, "健康", R.mipmap.clinic));
+                results.add(new Item(i * 16 + 12, "地图", R.mipmap.marker));
+                results.add(new Item(i * 16 + 13, "学校美照", R.mipmap.compact));
+                results.add(new Item(i * 16 + 14, "热线电话", R.mipmap.phone));
+                results.add(new Item(i * 16 + 15, "热线电话", R.mipmap.phone));
             }
         }
         results.remove(results.size() - 1);
@@ -75,6 +86,7 @@ public class FragmentImpro extends Fragment implements MyItemTouchCallback.OnDra
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 4));
+        //添加分割线
         recyclerView.addItemDecoration(new DividerGridItemDecoration(getActivity()));
 
         itemTouchHelper = new ItemTouchHelper(new MyItemTouchCallback(adapter).setOnDragListener(this));
@@ -91,8 +103,9 @@ public class FragmentImpro extends Fragment implements MyItemTouchCallback.OnDra
 
             @Override
             public void onItemClick(RecyclerView.ViewHolder vh) {
-                Item item = results.get(vh.getLayoutPosition());
-                Toast.makeText(getActivity(), item.getId() + " " + item.getName(), Toast.LENGTH_SHORT).show();
+                if (LeftMenu.getViewPager() != null) {
+                    LeftMenu.getViewPager().setCurrentItem(1);
+                }
             }
         });
     }
